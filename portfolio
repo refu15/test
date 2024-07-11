@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ポートフォリオ</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="portfolio.html">ポートフォリオ</a></li>
+            <li><a href="/question.html">問い合わせ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>ポートフォリオとは</h2>
+            <p>ここにポートフォリオとはの内容が入ります。</p>
+        </section>
+        <section>
+            <h2>ポートフォリオ一覧</h2>
+            <p>ここにポートフォリオ一覧の内容が入ります。</p>
+        </section>
+        <section>
+            <h2>各ポートフォリオ</h2>
+            <p>ここに各ポートフォリオの内容が入ります。</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
