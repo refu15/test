@@ -40,3 +40,7 @@ footer {
 .main-nav a:hover{
     color:#0bd;
 }
+.page-header{
+    display: flex;
+    justify-content: space-between;
+}
