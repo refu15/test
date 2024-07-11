@@ -1,50 +1,48 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>ホームページのタイトル</title>
-<style>
-  body { font-family: 'Arial', sans-serif; }
-  .container { width: 80%; margin: auto; }
-  header, footer { background: #333; color: white; padding: 1em; text-align: center; }
-  nav { background: #444; padding: 0.5em; }
-  nav ul { list-style-type: none; }
-  nav ul li { display: inline; margin-right: 10px; }
-  nav a { color: white; text-decoration: none; }
-  section { margin: 1em 0; }
-  .column { float: left; width: 33.333%; padding: 0.5em; }
-  .clearfix { clear: both; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Development Records</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
 </head>
 <body>
-<div class="container">
-  <header>
-    <h1>ヘッダー</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#">ホーム</a></li>
-      <li><a href="#">ポートフォリオ</a></li>
-      <li><a href="#">問い合わせ</a></li>
-    </ul>
-  </nav>
-  <section class="clearfix">
-    <div class="column">
-      <h2>ポートフォリオ1</h2>
-      <p>内容...</p>
-    </div>
-    <div class="column">
-      <h2>ポートフォリオ2</h2>
-      <p>内容...</p>
-    </div>
-    <div class="column">
-      <h2>ポートフォリオ3</h2>
-      <p>内容...</p>
-    </div>
-  </section>
-  <footer>
-    <p>フッター</p>
-  </footer>
-</div>
+    <header>
+        <h1>My Development Records</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>初めまして。github。</p>
+        <a href="die.html" >rink</a>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>これからの活動方針について</h3>
+            <p>７月中にWEBアプリケーションやホームページを作成するサークルを大学内で立ち上げます。嬉しい。自分たちの技術をより向上させるために様々な成果物を出していきたいです。</p>
+
+        </div>
+        <div class="project">
+            <h3>次につくる制作物</h3>
+            <p>僕らが作りたいものはまず７月中に僕らのサークルのwebページを作成することです。そのあとに、他のサークルのWEBページの作成も行っていきたいと考えてます。</p>
+        </div>
+    </section>
+    <section id="warning">
+    <h1>注意!</h1>
+    <ins>
+        <p>本サークルの作品を利用した結果起こったトラブルの一切に責任を負うことはできません。あくまでも学生が運用しているため、ご了承ください。</p>
+        <p>基本的には無料で依頼を引き受けますが、依頼次第ではお金がかかる場合がございます。詳しくはお問い合わせください。</p>
+    </ins>
+        </section>
+    <footer>
+        <p>&copy; 2024 My Development Records</p>
+    </footer>
+    <address>
+    <p>ご依頼は以下の連絡先にお願いします。</p>
+        <p>000-1111-2222</p>
+        <p>大沼優之介</p>
+    </address>
 </body>
 </html>
