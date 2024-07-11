@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問い合わせ</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>問い合わせ</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="main.html">main</a></li>
+            <li><a href="portfolio.html">ポートフォリオ</a></li>
+            <li><a href="question.html">問い合わせ</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>問い合わせフォーム</h2>
+            <p>ここに問い合わせフォームの内容が入ります。</p>
+        </section>
+        <section>
+            <h2>問い合わせ先</h2>
+            <p>ここに問い合わせ先の内容が入ります。</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+</body>
+</html>
