@@ -34,8 +34,8 @@ footer {
 .main-nav li{
     margin-left: 36px;
 }
-.main-nav a{
-    color:#white;
+a{
+    color: white;
 }
 .main-nav a:hover{
     color:#0bd;
