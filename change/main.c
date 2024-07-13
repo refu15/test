@@ -16,6 +16,7 @@ int main() {
             printf("%c",buffer[i]);
         }
     }
+      
 
     // ファイルをクローズする
     fclose(fp);
