@@ -14,10 +14,11 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white; /* ヘッダーの背景色 */
+    z-index: 1000; /* 他の要素の上に表示されるようにする */
 }
 
 .header-container {
