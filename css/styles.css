@@ -17,8 +17,8 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: white; /* ヘッダーの背景色 */
-    z-index: 1000; /* 他の要素の上に表示されるようにする */
+    background-color: white;
+    z-index: 1000;
 }
 
 .header-container {
@@ -29,46 +29,48 @@ header {
 /* PC用の追加のスタイル */
 .menu-btn {
     position: fixed;
-    top: 10px; /* 上からの位置 */
-    right: 10px; /* 右からの位置 */
-    font-size: 24px; /* ハンバーガーメニューのサイズ */
-    cursor: pointer; /* マウスポインターをポインターに変更 */
-    z-index: 1001; /* ヘッダーよりも上に表示されるようにする */
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
 }
 
 .desktop-nav {
-    display: none; /* PCでは通常のナビゲーションメニューを非表示にする */
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
     .desktop-nav {
-        display: block; /* PCでのみ通常のナビゲーションメニューを表示 */
+        display: block;
     }
     .mobile-header {
-        display: none; /* PCではモバイル用ナビゲーションメニューを非表示にする */
+        display: none;
     }
 }
 
 .mobile-header {
-    display: none; /* 最初は非表示 */
+    display: none;
     position: fixed;
-    top: 10px; /* スクロールしても画面の上部に固定 */
-    right: 10px; /* 右上に固定 */
+    top: 0;
+    right: 0;
     background-color: #f9f9f9;
-    width: 50%; /* 画面幅の50%を占める */
-    max-width: 300px; /* 最大幅を設定 */
+    width: 50%;
+    max-width: 300px;
     padding: 10px 20px;
     text-align: center;
-    z-index: 1000; /* メニューが最前面に表示されるように */
+    z-index: 1000;
 }
 
 .mobile-nav {
     list-style-type: none;
     padding: 0;
 }
+
 .mobile-nav li {
     margin-bottom: 10px;
 }
+
 .mobile-nav li a {
     display: block;
     padding: 10px;
@@ -77,9 +79,8 @@ header {
 }
 
 .mobile-nav.active {
-        display: flex; /* ハンバーガーメニューがクリックされたら表示する */
-    }
-
+    display: block;
+}
 
 .page-header nav {
     background-color: #333;
@@ -134,9 +135,7 @@ h1, h2, h3 {
 h1 {
     font-size: 2em;
 }
-.special-text {
-    color: blue; /* 特定のクラス（.special-text）に適用されるテキスト色を緑色に設定 */
-}
+
 h2 {
     font-size: 1.5em;
 }
@@ -164,19 +163,4 @@ footer p {
 
 /* Address styles */
 address {
-    background-color: #f5f5f5;
-    color: #333;
-    text-align: center;
-    padding: 20px 0;
-    margin: 20px 0;
-    border-top: 1px solid #ddd;
-}
-
-address p {
-    margin: 5px 0;
-}
-
-ins {
-    text-decoration: none;
-    color: red;
-}
+    background
