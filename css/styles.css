@@ -124,7 +124,9 @@ h1, h2, h3 {
 h1 {
     font-size: 2em;
 }
-
+.special-text {
+    color: blue; /* 特定のクラス（.special-text）に適用されるテキスト色を緑色に設定 */
+}
 h2 {
     font-size: 1.5em;
 }
