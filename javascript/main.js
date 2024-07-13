@@ -1,6 +1,10 @@
 // main.js
 
-// DOMContentLoadedイベントが発生した時の処理
-document.addEventListener('DOMContentLoaded', function () {
-    // メニューボタンとナビゲーションメニューの要素を取得
-    var menuBtn = document.getElementById('menu-btn');
+document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileNav = document.getElementById('mobile-header');
+
+    menuBtn.addEventListener('click', function() {
+        mobileNav.style.display = mobileNav.style.display === 'none' ? 'block' : 'none';
+    });
+});
