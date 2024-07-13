@@ -4,7 +4,6 @@ body, h1, h2, p, ul, li, header, nav, section, footer, address {
     padding: 0;
     box-sizing: border-box;
 }
-
 /* General styles */
 body {
     font-family: Arial, sans-serif;
@@ -12,7 +11,6 @@ body {
     color: #333;
     background-color: #f5f5f5;
 }
-
 /* ヘッダーの高さを設定 */
 header.desktop-header {
     position: fixed;
@@ -25,7 +23,6 @@ header.desktop-header {
     align-items: center; /* 垂直中央揃え */
     justify-content: space-between; /* 左右に配置 */
 }
-
 /* ヘッダー内のコンテンツを中央揃え */
 .header-container {
     width: 90%;
@@ -34,14 +31,12 @@ header.desktop-header {
     justify-content: space-between;
     align-items: center;
 }
-
 /* h1のスタイルを追加 */
 header.desktop-header h1 {
     margin: 0; /* デフォルトのマージンを削除 */
     font-size: 1.5em; /* 適切なフォントサイズ */
     color: #333; /* 文字色 */
 }
-
 /* ヘッダーの高さを設定 */
 header {
     position: fixed;
@@ -54,11 +49,15 @@ header {
     align-items: center; /* 垂直中央揃え */
 }
 
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* コンテンツをヘッダーの高さ分だけ下げる */
 body {
     margin-top: 60px; /* ヘッダーの高さに合わせる */
 }
-
 /* PC用の追加のスタイル */
 .menu-btn {
     position: fixed;
@@ -69,7 +68,19 @@ body {
     z-index: 1001;
 }
 
-/* モバイル用ナビゲーションメニューのスタイル */
+.desktop-nav {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .desktop-nav {
+        display: block;
+    }
+    .mobile-header {
+        display: none;
+    }
+}
+
 .mobile-header {
     display: none;
     position: fixed;
@@ -85,4 +96,118 @@ body {
 
 .mobile-nav {
     list-style-type: none;
-    padding:
+    padding: 0;
+}
+
+.mobile-nav li {
+    margin-bottom: 10px;
+}
+
+.mobile-nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.mobile-nav.active {
+    display: block;
+}
+
+.page-header nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.page-header .main-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.page-header .main-nav li {
+    margin: 0 15px;
+}
+
+.page-header .main-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+}
+
+.page-header .main-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#ThisSurcle, #purpose, #about, #projects, #warning {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+/* Project section */
+.project {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Address styles */
+address {
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0;
+    border-top: 1px solid #ddd;
+}
+
+address p {
+    margin: 5px 0;
+}
+
+ins {
+    text-decoration: none;
+    color: red;
+}
