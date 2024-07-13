@@ -47,8 +47,8 @@ header {
 .mobile-header {
     display: none; /* 最初は非表示 */
     position: fixed;
-    top: 0;
-    right: 0; /* 右上に固定 */
+    top: 10px; /* スクロールしても画面の上部に固定 */
+    right: 10px; /* 右上に固定 */
     background-color: #f9f9f9;
     width: 50%; /* 画面幅の50%を占める */
     max-width: 300px; /* 最大幅を設定 */
@@ -56,6 +56,7 @@ header {
     text-align: center;
     z-index: 1000; /* メニューが最前面に表示されるように */
 }
+
 .mobile-nav {
     list-style-type: none;
     padding: 0;
