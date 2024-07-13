@@ -28,8 +28,12 @@ header {
 
 /* PC用の追加のスタイル */
 .menu-btn {
-    display: block; /* ハンバーガーメニューボタンをブロック要素として表示 */
-    cursor: pointer; /* ポインターを表示してクリック可能にする */
+    position: fixed;
+    top: 10px; /* 上からの位置 */
+    right: 10px; /* 右からの位置 */
+    font-size: 24px; /* ハンバーガーメニューのサイズ */
+    cursor: pointer; /* マウスポインターをポインターに変更 */
+    z-index: 1001; /* ヘッダーよりも上に表示されるようにする */
 }
 
 .desktop-nav {
@@ -71,6 +75,11 @@ header {
     text-decoration: none;
     color: #333;
 }
+
+.mobile-nav.active {
+        display: flex; /* ハンバーガーメニューがクリックされたら表示する */
+    }
+
 
 .page-header nav {
     background-color: #333;
