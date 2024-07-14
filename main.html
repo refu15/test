@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ホーム</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="picture/icon.png" type="image/png">
 </head>
 <body>
-    <header>
-       <h1>クラウド・ソフトウェア開発会</h1>
-        <div class="menu-btn" id="menu-btn">&#9776;</div>
+    <header class="desktop-header">
+        <div class="header-container">
+            <h1>クラウド・ソフトウェア開発会</h1>
+            <div class="menu-btn" id="menu-btn">&#9776;</div>
+        </div>    
         <nav class="desktop-nav">
             <ul class="main-nav">
                 <li><a href="portfolio.html">ポートフォリオ</a></li>
@@ -25,22 +28,24 @@
         <nav>
             <ul class="mobile-nav">
                 <li><a href="portfolio.html">ポートフォリオ</a></li>
-                <li><a href="main.html">サークル概要</a></li>
-                <li><a href="main.html">Q&A(よくある質問)</a></li>
+                <li><a href="index.html">サークル概要</a></li>
+                <li><a href="FAQ.html">Q&A(よくある質問)</a></li>
                 <li><a href="question.html">問い合わせ</a></li>
             </ul>
         </nav>
     </header>
+
     <header class="page-header">
-    <nav>
-        <ul class="main-nav">
-            <li><a href="portfolio.html">ポートフォリオ</a></li>
-            <li><a href="main.html">サークル概要</a></li>
-            <li><a href="FAQ.html">Q&A(よくある質問)</a></li>
-            <li><a href="question.html">問い合わせ</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul class="main-nav">
+                <li><a href="portfolio.html">ポートフォリオ</a></li>
+                <li><a href="index.html">サークル概要</a></li>
+                <li><a href="FAQ.html">Q&A(よくある質問)</a></li>
+                <li><a href="question.html">問い合わせ</a></li>
+            </ul>
+        </nav>
     </header>
+    
     <section id="ThisSurcle">
         <h1>クラウド・ソフトウェア開発会とは?</h1>
         <p>クラウド・ソフトウェア開発会は、山形大学米沢キャンパスで2024年7月12日に結成された、サークルメンバー10人のサークルです。</p>
@@ -59,7 +64,6 @@
         <div class="project">
             <h3>これからの活動方針について</h3>
             <p>７月中にWEBアプリケーションやホームページを作成するサークルを大学内で立ち上げます。嬉しい。自分たちの技術をより向上させるために様々な成果物を出していきたいです。</p>
-
         </div>
         <div class="project">
             <h3>次につくる制作物</h3>
@@ -67,20 +71,30 @@
         </div>
     </section>
     <section id="warning">
-    <h1>注意!</h1>
-    <ins>
-        <p>本サークルの作品を利用した結果起こったトラブルの一切に責任を負うことはできません。あくまでも学生が運用しているため、ご了承ください。</p>
-        <p>基本的には無料で依頼を引き受けますが、依頼次第ではお金がかかる場合がございます。詳しくはお問い合わせください。</p>
-    </ins>
-        </section>
+        <h1>注意!</h1>
+        <ins>
+            <p>本サークルの作品を利用した結果起こったトラブルの一切に責任を負うことはできません。あくまでも学生が運用しているため、ご了承ください。</p>
+            <p>基本的には無料で依頼を引き受けますが、依頼次第ではお金がかかる場合がございます。詳しくはお問い合わせください。</p>
+        </ins>
+    </section>
+    
+    <footer class="page-header">
+        <nav>
+            <ul class="main-nav">
+                <li><a href="portfolio.html">ポートフォリオ</a></li>
+                <li><a href="index.html">サークル概要</a></li>
+                <li><a href="FAQ.html">Q&A(よくある質問)</a></li>
+                <li><a href="question.html">問い合わせ</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
     <footer>
         <p>&copy; 2024 My Development Records</p>
     </footer>
     <address>
-    <p>ご依頼は以下の連絡先にお願いします。</p>
-        <p>000-1111-2222</p>
-        <p>大沼優之介</p>
     </address>
-    <script src="javascript/main.js"></script>
+    
+    <script src="js/scripts.js"></script>
 </body>
 </html>
