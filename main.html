@@ -8,38 +8,33 @@
     <link rel="icon" href="picture/icon.png" type="image/png">
 </head>
 <body>
-    <header class="desktop-header">
-        <div class="header-container">
-            <h1>クラウド・ソフトウェア開発会</h1>
-            <div class="menu-btn" id="menu-btn">&#9776;</div>
-        </div>    
-        <nav class="desktop-nav">
-            <ul class="main-nav">
-                <li><a href="portfolio.html">ポートフォリオ</a></li>
-                <li><a href="index.html">サークル概要</a></li>
-                <li><a href="FAQ.html">Q&A(よくある質問)</a></li>
-                <li><a href="question.html">問い合わせ</a></li>
-            </ul>
+  <div class="container">
+    <header class="header">
+      <div class="header__inner">
+        <h1 class="header__title header-title">
+          <a href="#">
+            クラウド・ソフトウェア開発会
+          </a>
+        </h1>
+
+        <nav class="header__nav nav" id="js-nav">
+          <ul class="nav__items nav-items">
+            <li class="nav-items__item"><a href="">メニュー</a></li>
+            <li class="nav-items__item"><a href="">メニュー</a></li>
+            <li class="nav-items__item"><a href="">メニュー</a></li>
+            <li class="nav-items__item"><a href="">メニュー</a></li>
+          </ul>
         </nav>
-    
-    <!-- モバイル用ナビゲーションメニュー -->
-    <header class="mobile-header" id="mobile-header">
-        <nav>
-            <ul class="mobile-nav">
-                <li><a href="portfolio.html" class="nav-items__item">ポートフォリオ</a></li>
-                <li><a href="index.html" class="nav-items__item">サークル概要</a></li>
-                <li><a href="FAQ.html" class="nav-items__item">Q&A(よくある質問)</a></li>
-                <li><a href="question.html" class="nav-items__item">問い合わせ</a></li>
-            </ul>
-        </nav>
-    </header>
- <button class="header__hamburger hamburger" id="js-hamburger">
+
+        <button class="header__hamburger hamburger" id="js-hamburger">
           <span></span>
           <span></span>
           <span></span>
         </button>
-        </header>
-    
+      </div>
+    </header>
+  </div>
+    <main>
     <section id="ThisSurcle">
         <h1>クラウド・ソフトウェア開発会とは?</h1>
         <p>クラウド・ソフトウェア開発会は、山形大学米沢キャンパスで2024年7月12日に結成された、サークルメンバー10人のサークルです。</p>
@@ -72,7 +67,7 @@
             <p>その他疑問があれば気軽にお問い合わせください。</p>
         </ins>
     </section>
-    
+    </main>
     <footer class="page-header">
         <nav>
             <ul class="main-nav">
